@@ -6,6 +6,9 @@ Interroger l’API Microsoft Graph pour récupérer les mails et les sauvegarder
 Afficher l’évolution du nombre de mails envoyés sur un graphe.
 
 ## Application *msgdata*
+La récupération de mails et leurs sauvegarde en BDD, ce fait au lancement de l'application.   
+Une meilleur approche sera de céer un **endpoint**, permettant de récupérer les mails en spécifiant le **clientId**, **clientSecret** et le **tenant** via une interface administrateur.
+
 | service | rôle |
 --------- |----- |
 |**EmailService** | *insérer un mail dans la base de données et récupérer le nombre de mail envoyés par date.* |
