@@ -49,7 +49,7 @@ $ ./mvnw spring-boot:run
 # windows
 $ mvnw spring-boot:run
 
-$ cd ../indicator-ui
+$ cd indicator-ui
 $ npm install
 $ npm run dev
 ```
